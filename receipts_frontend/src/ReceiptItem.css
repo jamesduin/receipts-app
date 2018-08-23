@@ -1,0 +1,32 @@
+.list {
+	width: 100%;
+	margin: 0 auto;
+}
+.task {
+	width: 80%;
+	height: 100%;
+	line-height: 200%;
+	font-size: 100%;
+	padding: 0 20px;
+	color: #34495e;
+	transition: all .3s ease;
+}
+.task:hover {
+	background: rgba(0, 0, 0, .02);
+	cursor: pointer;
+}
+
+.task:hover span{
+	opacity: 1;
+}
+
+.span-delete {
+  float: right;
+  color: #c0392b;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.span-delete:hover {
+  color: #e74c3c
+}
